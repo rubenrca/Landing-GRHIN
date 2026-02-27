@@ -84,7 +84,7 @@ export default function BulkUploadAnimation() {
 
             {/* SIDEBAR */}
             <g className="bu-sidebar">
-              <rect x="0" y="70" width="280" height="890" fill="#F0FDFA" filter="url(#bu-shadow-md)" />
+              <rect x="0" y="70" width="280" height="890" fill="#F2F5F4" filter="url(#bu-shadow-md)" />
               <g transform="translate(25, 100)">
                 <text x="10" y="20" fontSize="13" fontWeight="bold" fill="#8E9E8F" letterSpacing="1">NAVEGACION</text>
                 <g transform="translate(12, 50)">

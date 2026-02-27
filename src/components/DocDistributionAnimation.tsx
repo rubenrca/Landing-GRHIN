@@ -98,7 +98,7 @@ export default function DocDistributionAnimation() {
 
             {/* SIDEBAR */}
             <g className="dd-sidebar">
-              <rect x="0" y="70" width="280" height="890" fill="#F0FDFA" filter="url(#dd-shadow-md)" />
+              <rect x="0" y="70" width="280" height="890" fill="#F2F5F4" filter="url(#dd-shadow-md)" />
               <g transform="translate(25, 100)">
                 <text x="10" y="20" fontSize="13" fontWeight="bold" fill="#8E9E8F" letterSpacing="1">NAVEGACION</text>
                 <g transform="translate(12, 50)">
@@ -121,7 +121,7 @@ export default function DocDistributionAnimation() {
                   </g>
                   {/* Submenú - Consultar Liquidaciones (Activo) */}
                   <g transform="translate(-37, 90)">
-                    <rect width="280" height="46" fill="#CCFBF1" />
+                    <rect width="280" height="46" fill="#E5ECEA" />
                     <rect width="4" height="46" fill="#0D9488" />
                     <svg x="49" y="13" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0D9488" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><polyline points="14 2 14 8 20 8" /><line x1="16" y1="13" x2="8" y2="13" /><line x1="16" y1="17" x2="8" y2="17" /><polyline points="10 9 9 9 8 9" />
@@ -198,13 +198,13 @@ export default function DocDistributionAnimation() {
               <g transform="translate(40, 160)">
                 <g className="dd-list">
                   <rect width="1030" height="96" rx="48" fill="white" filter="url(#dd-shadow-sm)" />
-                  <circle cx="48" cy="48" r="26" fill="#F0FDFA" />
+                  <circle cx="48" cy="48" r="26" fill="#F2F5F4" />
                   <svg x="36" y="36" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D9488" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><line x1="16" y1="13" x2="8" y2="13" /><line x1="16" y1="17" x2="8" y2="17" /><polyline points="10 9 9 9 8 9" />
                   </svg>
                   <text x="95" y="42" fontSize="16" fontWeight="bold" className="t-dark">Liquidacion demo</text>
                   <text x="95" y="65" fontSize="14" className="t-gray">Febrero 2026</text>
-                  <rect x="195" y="50" width="70" height="22" rx="6" fill="#F0FDFA" />
+                  <rect x="195" y="50" width="70" height="22" rx="6" fill="#F2F5F4" />
                   <text x="230" y="66" fontSize="12" fontWeight="bold" fill="#0F766E" textAnchor="middle">Firmado</text>
                   {/* Eye icon */}
                   <svg className="dd-eye" x="930" y="36" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6b7b6d" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

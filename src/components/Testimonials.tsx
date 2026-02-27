@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ScrollReveal from "./ui/ScrollReveal";
 
 const testimonials = [
@@ -8,6 +9,7 @@ const testimonials = [
     role: "Sostenedor",
     company: "Colegio Nuevo Milenio",
     initials: "RC",
+    logo: "/milenio.webp",
   },
   {
     quote:
@@ -16,6 +18,7 @@ const testimonials = [
     role: "Administrador",
     company: "Fundacion Arcoiris",
     initials: "RF",
+    logo: "/arcoiris.webp",
   },
 ];
 
@@ -60,18 +63,27 @@ export default function Testimonials() {
                   &ldquo;{testimonial.quote}&rdquo;
                 </p>
 
-                <div className="flex items-center gap-3">
-                  <div className="h-10 w-10 rounded-full flex items-center justify-center text-sm font-bold text-white bg-gradient-to-br from-primary to-primary-dark">
-                    {testimonial.initials}
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-3">
+                    <div className="h-10 w-10 rounded-full flex items-center justify-center text-sm font-bold text-white bg-gradient-to-br from-primary to-primary-dark">
+                      {testimonial.initials}
+                    </div>
+                    <div>
+                      <p className="text-sm font-semibold text-text">
+                        {testimonial.name}
+                      </p>
+                      <p className="text-xs text-text-secondary">
+                        {testimonial.role}, {testimonial.company}
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <p className="text-sm font-semibold text-text">
-                      {testimonial.name}
-                    </p>
-                    <p className="text-xs text-text-secondary">
-                      {testimonial.role}, {testimonial.company}
-                    </p>
-                  </div>
+                  <Image
+                    src={testimonial.logo}
+                    alt={testimonial.company}
+                    width={80}
+                    height={32}
+                    className="h-6 w-auto object-contain opacity-40"
+                  />
                 </div>
               </div>
             ))}

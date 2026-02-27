@@ -49,7 +49,7 @@ export default function Features() {
               </p>
 
               <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-bold text-text leading-tight">
-                Beneficios que transforman tu gestion.
+                Un software que transforma tu gestion de RRHH.
               </h2>
 
               <p className="mt-5 text-text-secondary leading-relaxed">

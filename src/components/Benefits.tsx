@@ -41,7 +41,7 @@ export default function Benefits() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-text leading-tight">
               Ayudamos a las personas a hacer mas del{" "}
-              <span className="text-primary-darker">trabajo que importa.</span>
+              <span className="text-primary">trabajo que importa.</span>
             </h2>
             <p className="mt-6 text-lg text-text-secondary leading-relaxed">
               Estamos construyendo una forma de trabajar donde los procesos son

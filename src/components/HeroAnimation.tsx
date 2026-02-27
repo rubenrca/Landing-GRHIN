@@ -56,9 +56,9 @@ export default function HeroAnimation() {
               to { transform: translateY(0); opacity: 1; }
             }
             @keyframes pulseGreen {
-              0% { fill: #F0FDFA; }
-              50% { fill: #CCFBF1; }
-              100% { fill: #F0FDFA; }
+              0% { fill: #F2F5F4; }
+              50% { fill: #E5ECEA; }
+              100% { fill: #F2F5F4; }
             }
             @keyframes cursorMove {
               0% { transform: translate(1200px, 900px); opacity: 0; }
@@ -93,7 +93,7 @@ export default function HeroAnimation() {
             .card-7 { animation: fadeUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) 1.8s both; }
             .card-8 { animation: fadeUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) 1.9s both; }
 
-            .alert-card-bg { animation: pulseGreen 3s infinite 2.5s; fill: #F0FDFA; }
+            .alert-card-bg { animation: pulseGreen 3s infinite 2.5s; fill: #F2F5F4; }
             .cursor-anim { animation: cursorMove 6s infinite 3s; opacity: 0; pointer-events: none; }
             .interactive-btn { animation: buttonClick 6s infinite 3s; }
           `}</style>
@@ -104,14 +104,14 @@ export default function HeroAnimation() {
 
         {/* SIDEBAR */}
         <g className="sidebar-anim">
-          <rect x="0" y="70" width="280" height="890" fill="#F0FDFA" filter="url(#shadow-md)" />
+          <rect x="0" y="70" width="280" height="890" fill="#F2F5F4" filter="url(#shadow-md)" />
 
           <g transform="translate(25, 100)">
             <text x="10" y="20" fontSize="13" fontWeight="bold" fill="#8E9E8F" letterSpacing="1">NAVEGACION</text>
 
             {/* Item Activo */}
             <g transform="translate(0, 40)">
-              <rect width="230" height="44" rx="10" fill="#CCFBF1" />
+              <rect width="230" height="44" rx="10" fill="#E5ECEA" />
               <svg x="12" y="12" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0D9488" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
                 <rect x="3" y="3" width="7" height="7" />
                 <rect x="14" y="3" width="7" height="7" />

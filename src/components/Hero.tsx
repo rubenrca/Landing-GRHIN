@@ -18,15 +18,15 @@ export default function Hero() {
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto">
+        <div className="text-center max-w-4xl mx-auto">
 
 
           <h1 className="hero-animate-2 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-text leading-[1.1]">
             Gestion de{" "}
-            <span className="text-primary-darker">
-              recursos humanos
+            <span className="text-primary">
+              Recursos Humanos Integrado
             </span>{" "}
-            en la nube
+            en la Nube
           </h1>
 
           <p className="hero-animate-3 mt-6 text-lg text-text-secondary leading-relaxed max-w-2xl mx-auto">
@@ -42,7 +42,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="rounded-lg px-6 py-3 text-sm font-semibold text-white bg-primary-dark hover:bg-primary-darker transition-all duration-300 hover:shadow-[0_0_30px_rgba(20,184,166,0.3)] inline-flex items-center gap-2 shadow-lg btn-glow"
             >
-              Probar GRHIN ahora
+              Ver demo
               <svg
                 className="h-4 w-4"
                 fill="none"
@@ -61,7 +61,7 @@ export default function Hero() {
               href="#funcionalidades"
               className="rounded-lg border border-gray-300 px-6 py-3 text-sm font-semibold text-text hover:bg-gray-50 transition-colors"
             >
-              Ver funcionalidades
+              Como funciona
             </a>
           </div>
         </div>
