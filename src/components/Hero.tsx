@@ -35,35 +35,6 @@ export default function Hero() {
             Disenado para organizaciones chilenas.
           </p>
 
-          <div className="hero-animate-4 mt-8 flex flex-wrap justify-center gap-4">
-            <a
-              href="https://admin.grhin.cl"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg px-6 py-3 text-sm font-semibold text-white bg-primary-dark hover:bg-primary-darker transition-all duration-300 hover:shadow-[0_0_30px_rgba(20,184,166,0.3)] inline-flex items-center gap-2 shadow-lg btn-glow"
-            >
-              Ver demo
-              <svg
-                className="h-4 w-4"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M13 7l5 5m0 0l-5 5m5-5H6"
-                />
-              </svg>
-            </a>
-            <a
-              href="#funcionalidades"
-              className="rounded-lg border border-gray-300 px-6 py-3 text-sm font-semibold text-text hover:bg-gray-50 transition-colors"
-            >
-              Como funciona
-            </a>
-          </div>
         </div>
       </div>
     </section>
