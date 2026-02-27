@@ -26,7 +26,7 @@ export default function Hero() {
             <span className="text-primary">
               recursos humanos
             </span>{" "}
-            simplificada
+            en la nube
           </h1>
 
           <p className="hero-animate-3 mt-6 text-lg text-text-secondary leading-relaxed max-w-2xl mx-auto">

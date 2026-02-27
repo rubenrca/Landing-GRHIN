@@ -351,7 +351,7 @@ export default function HeroAnimation() {
               <text x="17" y="9" fontSize="9" fontWeight="bold" fill="white" textAnchor="middle">12</text>
             </g>
 
-            <text x="85" y="20" fontSize="15" fontWeight="500" fill="white">Colegio de Prueba - Administrador</text>
+            <text x="85" y="20" fontSize="15" fontWeight="500" fill="white">Empresa Demo - Administrador</text>
 
             <circle cx="360" cy="15" r="18" fill="none" stroke="white" strokeWidth="1.5" />
             <text x="360" y="21" fontSize="15" fontWeight="bold" fill="white" textAnchor="middle">AD</text>

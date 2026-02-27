@@ -3,6 +3,7 @@
 import { useState } from "react";
 import HeroAnimation from "./HeroAnimation";
 import BulkUploadAnimation from "./BulkUploadAnimation";
+import DocDistributionAnimation from "./DocDistributionAnimation";
 import ScrollReveal from "./ui/ScrollReveal";
 
 const features = [
@@ -27,6 +28,7 @@ const features = [
 const mockups: Record<number, React.ReactNode> = {
   0: <HeroAnimation />,
   1: <BulkUploadAnimation />,
+  2: <DocDistributionAnimation />,
 };
 
 export default function Features() {
