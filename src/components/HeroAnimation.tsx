@@ -41,7 +41,7 @@ export default function HeroAnimation() {
             .text-dark { fill: #1a1a1a; }
             .text-gray { fill: #6b7280; }
             .text-white { fill: #ffffff; }
-            .text-green { fill: #3A9A3D; }
+            .text-green { fill: #0D9488; }
 
             @keyframes slideDown {
               from { transform: translateY(-100%); opacity: 0; }
@@ -56,9 +56,9 @@ export default function HeroAnimation() {
               to { transform: translateY(0); opacity: 1; }
             }
             @keyframes pulseGreen {
-              0% { fill: #EDF7EE; }
-              50% { fill: #DDF0DE; }
-              100% { fill: #EDF7EE; }
+              0% { fill: #F0FDFA; }
+              50% { fill: #CCFBF1; }
+              100% { fill: #F0FDFA; }
             }
             @keyframes cursorMove {
               0% { transform: translate(1200px, 900px); opacity: 0; }
@@ -71,9 +71,9 @@ export default function HeroAnimation() {
               100% { transform: translate(1200px, 900px); opacity: 0; }
             }
             @keyframes buttonClick {
-              0%, 44% { fill: #3A9A3D; }
-              45%, 50% { fill: #2D7A30; }
-              51%, 100% { fill: #3A9A3D; }
+              0%, 44% { fill: #0D9488; }
+              45%, 50% { fill: #0F766E; }
+              51%, 100% { fill: #0D9488; }
             }
 
             .nav-anim { animation: slideDown 0.8s cubic-bezier(0.25, 1, 0.5, 1) both; }
@@ -93,7 +93,7 @@ export default function HeroAnimation() {
             .card-7 { animation: fadeUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) 1.8s both; }
             .card-8 { animation: fadeUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) 1.9s both; }
 
-            .alert-card-bg { animation: pulseGreen 3s infinite 2.5s; fill: #EDF7EE; }
+            .alert-card-bg { animation: pulseGreen 3s infinite 2.5s; fill: #F0FDFA; }
             .cursor-anim { animation: cursorMove 6s infinite 3s; opacity: 0; pointer-events: none; }
             .interactive-btn { animation: buttonClick 6s infinite 3s; }
           `}</style>
@@ -104,15 +104,15 @@ export default function HeroAnimation() {
 
         {/* SIDEBAR */}
         <g className="sidebar-anim">
-          <rect x="0" y="70" width="280" height="890" fill="#f0f7f0" filter="url(#shadow-md)" />
+          <rect x="0" y="70" width="280" height="890" fill="#F0FDFA" filter="url(#shadow-md)" />
 
           <g transform="translate(25, 100)">
             <text x="10" y="20" fontSize="13" fontWeight="bold" fill="#8E9E8F" letterSpacing="1">NAVEGACION</text>
 
             {/* Item Activo */}
             <g transform="translate(0, 40)">
-              <rect width="230" height="44" rx="10" fill="#ddf0dd" />
-              <svg x="12" y="12" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3A9A3D" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <rect width="230" height="44" rx="10" fill="#CCFBF1" />
+              <svg x="12" y="12" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0D9488" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
                 <rect x="3" y="3" width="7" height="7" />
                 <rect x="14" y="3" width="7" height="7" />
                 <rect x="14" y="14" width="7" height="7" />
@@ -209,7 +209,7 @@ export default function HeroAnimation() {
               <text x="25" y="40" fontSize="17" fontWeight="bold" className="text-dark">Cargas Masivas</text>
               <text x="25" y="65" fontSize="14" className="text-gray">Sube archivos en formato PDF</text>
               <text x="25" y="85" fontSize="14" className="text-gray">mediante procesos de carga masiva.</text>
-              <rect x="25" y="110" width="280" height="42" rx="21" fill="#3A9A3D" />
+              <rect x="25" y="110" width="280" height="42" rx="21" fill="#0D9488" />
               <svg x="70" y="121" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
                 <polyline points="17 8 12 3 7 8" />
@@ -225,7 +225,7 @@ export default function HeroAnimation() {
               <text x="25" y="40" fontSize="17" fontWeight="bold" className="text-dark">Documentos Individuales</text>
               <text x="25" y="65" fontSize="14" className="text-gray">Sube contratos, anexos y otros</text>
               <text x="25" y="85" fontSize="14" className="text-gray">documentos unicos por trabajador.</text>
-              <rect x="25" y="110" width="280" height="42" rx="21" fill="#3A9A3D" />
+              <rect x="25" y="110" width="280" height="42" rx="21" fill="#0D9488" />
               <svg x="70" y="121" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
                 <polyline points="14 2 14 8 20 8" />
@@ -242,7 +242,7 @@ export default function HeroAnimation() {
               <text x="25" y="40" fontSize="17" fontWeight="bold" className="text-dark">Documentos Generales</text>
               <text x="25" y="65" fontSize="14" className="text-gray">Publica documentos asignados a</text>
               <text x="25" y="85" fontSize="14" className="text-gray">toda tu organizacion facilmente.</text>
-              <rect x="25" y="110" width="280" height="42" rx="21" fill="#3A9A3D" />
+              <rect x="25" y="110" width="280" height="42" rx="21" fill="#0D9488" />
               <svg x="70" y="121" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
               </svg>
@@ -258,8 +258,8 @@ export default function HeroAnimation() {
               <rect width="515" height="150" rx="16" fill="white" filter="url(#shadow-sm)" />
               <text x="25" y="40" fontSize="17" fontWeight="bold" className="text-dark">Documentos de la Empresa</text>
               <text x="25" y="65" fontSize="14" className="text-gray">Revisa y administra todos los documentos institucionales subidos.</text>
-              <rect x="25" y="90" width="465" height="40" rx="20" fill="white" stroke="#3A9A3D" strokeWidth="1.5" />
-              <svg x="145" y="100" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3A9A3D" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="25" y="90" width="465" height="40" rx="20" fill="white" stroke="#0D9488" strokeWidth="1.5" />
+              <svg x="145" y="100" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0D9488" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
                 <polyline points="14 2 14 8 20 8" />
                 <circle cx="11.5" cy="14.5" r="2.5" />
@@ -274,8 +274,8 @@ export default function HeroAnimation() {
               <rect width="515" height="150" rx="16" fill="white" filter="url(#shadow-sm)" />
               <text x="25" y="40" fontSize="17" fontWeight="bold" className="text-dark">Trabajadores</text>
               <text x="25" y="65" fontSize="14" className="text-gray">Visualiza y actualiza los perfiles y datos de tu personal.</text>
-              <rect x="25" y="90" width="465" height="40" rx="20" fill="white" stroke="#3A9A3D" strokeWidth="1.5" />
-              <svg x="145" y="100" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3A9A3D" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="25" y="90" width="465" height="40" rx="20" fill="white" stroke="#0D9488" strokeWidth="1.5" />
+              <svg x="145" y="100" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0D9488" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                 <circle cx="9" cy="7" r="4" />
                 <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
@@ -309,8 +309,8 @@ export default function HeroAnimation() {
               <text x="25" y="40" fontSize="17" fontWeight="bold" className="text-dark">Comunicaciones</text>
               <text x="25" y="65" fontSize="14" className="text-gray">Publica y difunde noticias a toda</text>
               <text x="25" y="85" fontSize="14" className="text-gray">la comunidad de tu institucion.</text>
-              <rect x="25" y="110" width="280" height="40" rx="20" fill="white" stroke="#3A9A3D" strokeWidth="1.5" />
-              <svg x="65" y="120" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3A9A3D" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="25" y="110" width="280" height="40" rx="20" fill="white" stroke="#0D9488" strokeWidth="1.5" />
+              <svg x="65" y="120" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0D9488" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
               </svg>
               <text x="175" y="135" fontSize="15" fontWeight="bold" className="text-green" textAnchor="middle">Publicar Comunicacion</text>
@@ -323,8 +323,8 @@ export default function HeroAnimation() {
               <text x="25" y="40" fontSize="17" fontWeight="bold" className="text-dark">Denuncias Ley Karin</text>
               <text x="25" y="65" fontSize="14" className="text-gray">Bandeja de gestion para denuncias</text>
               <text x="25" y="85" fontSize="14" className="text-gray">y reportes de convivencia.</text>
-              <rect x="25" y="110" width="280" height="40" rx="20" fill="white" stroke="#3A9A3D" strokeWidth="1.5" />
-              <svg x="65" y="120" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3A9A3D" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="25" y="110" width="280" height="40" rx="20" fill="white" stroke="#0D9488" strokeWidth="1.5" />
+              <svg x="65" y="120" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0D9488" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
                 <line x1="12" y1="9" x2="12" y2="13" />
                 <line x1="12" y1="17" x2="12.01" y2="17" />
@@ -336,7 +336,7 @@ export default function HeroAnimation() {
 
         {/* TOP NAVBAR */}
         <g className="nav-anim">
-          <rect width="1440" height="70" fill="#2D7A30" filter="url(#shadow-sm)" />
+          <rect width="1440" height="70" fill="#0F766E" filter="url(#shadow-sm)" />
 
           <g transform="translate(30, 20)">
             <path d="M15 25 a10 10 0 0 1 -5 -18 a12 12 0 0 1 22 -2 a8 8 0 0 1 2 15 z" fill="#8FD88F" />
@@ -346,7 +346,7 @@ export default function HeroAnimation() {
 
           <g transform="translate(1000, 18)">
             <g transform="translate(30, 0)">
-              <path d="M10 24 a2 2 0 0 0 4 0 H10 z M18 19 v-6 a6 6 0 0 0 -12 0 v6 l-2 2 v1 h16 v-1 l-2 -2 z" fill="#1a5e1d" />
+              <path d="M10 24 a2 2 0 0 0 4 0 H10 z M18 19 v-6 a6 6 0 0 0 -12 0 v6 l-2 2 v1 h16 v-1 l-2 -2 z" fill="#115E59" />
               <circle cx="17" cy="6" r="7" fill="#e53e3e" />
               <text x="17" y="9" fontSize="9" fontWeight="bold" fill="white" textAnchor="middle">12</text>
             </g>

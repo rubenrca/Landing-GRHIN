@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <SectionDivider variant="wave" colorFrom="#dcefdc" colorTo="var(--color-primary-darker)" />
+        <SectionDivider variant="wave" colorFrom="#B2F5EA" colorTo="var(--color-primary-darker)" />
         <TrustStrip />
         <SectionDivider variant="curve" colorFrom="var(--color-primary-darker)" colorTo="#ffffff" />
         <Features />

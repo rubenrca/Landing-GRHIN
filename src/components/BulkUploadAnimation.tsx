@@ -33,7 +33,7 @@ export default function BulkUploadAnimation() {
               .bu .t-dark { fill: #1c2b2e; }
               .bu .t-gray { fill: #6b7b7f; }
               .bu .t-white { fill: #ffffff; }
-              .bu .t-green { fill: #3A9A3D; }
+              .bu .t-green { fill: #0D9488; }
 
               @keyframes buSlideDown {
                 from { transform: translateY(-100%); opacity: 0; }
@@ -60,9 +60,9 @@ export default function BulkUploadAnimation() {
                 100% { transform: translate(1200px, 900px); opacity: 0; }
               }
               @keyframes buButtonClick {
-                0%, 64% { fill: #3A9A3D; }
-                65%, 70% { fill: #2D7A30; }
-                71%, 100% { fill: #3A9A3D; }
+                0%, 64% { fill: #0D9488; }
+                65%, 70% { fill: #0F766E; }
+                71%, 100% { fill: #0D9488; }
               }
 
               .bu .bu-nav { animation: buSlideDown 0.8s cubic-bezier(0.25, 1, 0.5, 1) both; }
@@ -84,7 +84,7 @@ export default function BulkUploadAnimation() {
 
             {/* SIDEBAR */}
             <g className="bu-sidebar">
-              <rect x="0" y="70" width="280" height="890" fill="#f0f7f0" filter="url(#bu-shadow-md)" />
+              <rect x="0" y="70" width="280" height="890" fill="#F0FDFA" filter="url(#bu-shadow-md)" />
               <g transform="translate(25, 100)">
                 <text x="10" y="20" fontSize="13" fontWeight="bold" fill="#8E9E8F" letterSpacing="1">NAVEGACION</text>
                 <g transform="translate(12, 50)">
@@ -95,11 +95,11 @@ export default function BulkUploadAnimation() {
                     <text x="33" y="12" fontSize="15" fontWeight="500" className="t-dark">Inicio</text>
                   </g>
                   <g transform="translate(0, 55)">
-                    <svg x="0" y="-3" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3A9A3D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <svg x="0" y="-3" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0D9488" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><polyline points="14 2 14 8 20 8" />
                     </svg>
                     <text x="33" y="12" fontSize="15" fontWeight="bold" className="t-dark">Documentos</text>
-                    <svg x="180" y="2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3A9A3D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <svg x="180" y="2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0D9488" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                       <polyline points="6 9 12 15 18 9" />
                     </svg>
                   </g>
@@ -211,7 +211,7 @@ export default function BulkUploadAnimation() {
                   {/* Submit Button */}
                   <g transform="translate(40, 370)">
                     <g className="bu-submit">
-                      <rect className="bu-btn-click" width="480" height="50" rx="8" fill="#3A9A3D" />
+                      <rect className="bu-btn-click" width="480" height="50" rx="8" fill="#0D9488" />
                       <text x="240" y="31" fontSize="16" fontWeight="bold" className="t-white" textAnchor="middle">Carga Archivo Carga Masiva</text>
                     </g>
                   </g>
@@ -249,7 +249,7 @@ export default function BulkUploadAnimation() {
 
             {/* TOP NAVBAR */}
             <g className="bu-nav">
-              <rect width="1440" height="70" fill="#2D7A30" filter="url(#bu-shadow-sm)" />
+              <rect width="1440" height="70" fill="#0F766E" filter="url(#bu-shadow-sm)" />
               <g transform="translate(30, 20)">
                 <path d="M15 25 a10 10 0 0 1 -5 -18 a12 12 0 0 1 22 -2 a8 8 0 0 1 2 15 z" fill="#8FD88F" />
                 <path d="M18 25 a8 8 0 0 1 -4 -14 a10 10 0 0 1 18 -1 a6 6 0 0 1 1 11 z" fill="#B8F0B8" opacity="0.5" />
@@ -257,7 +257,7 @@ export default function BulkUploadAnimation() {
               </g>
               <g transform="translate(1000, 18)">
                 <g transform="translate(30, 0)">
-                  <path d="M10 24 a2 2 0 0 0 4 0 H10 z M18 19 v-6 a6 6 0 0 0 -12 0 v6 l-2 2 v1 h16 v-1 l-2 -2 z" fill="#1a5e1d" />
+                  <path d="M10 24 a2 2 0 0 0 4 0 H10 z M18 19 v-6 a6 6 0 0 0 -12 0 v6 l-2 2 v1 h16 v-1 l-2 -2 z" fill="#115E59" />
                   <circle cx="17" cy="6" r="7" fill="#F44336" />
                   <text x="17" y="9" fontSize="9" fontWeight="bold" fill="white" textAnchor="middle">12</text>
                 </g>

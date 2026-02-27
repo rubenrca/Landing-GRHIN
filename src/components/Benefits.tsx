@@ -41,7 +41,7 @@ export default function Benefits() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-text leading-tight">
               Ayudamos a las personas a hacer mas del{" "}
-              <span className="text-primary">trabajo que importa.</span>
+              <span className="text-primary-darker">trabajo que importa.</span>
             </h2>
             <p className="mt-6 text-lg text-text-secondary leading-relaxed">
               Estamos construyendo una forma de trabajar donde los procesos son
@@ -57,7 +57,7 @@ export default function Benefits() {
             {stats.map((stat) => (
               <div
                 key={stat.label}
-                className="group relative rounded-2xl p-8 text-center transition-all duration-300 bg-white/70 backdrop-blur-sm border border-gray-100 hover:shadow-[0_8px_30px_rgba(76,184,79,0.12)] hover:border-primary/20 hover:-translate-y-1 gradient-border"
+                className="group relative rounded-2xl p-8 text-center transition-all duration-300 bg-white/70 backdrop-blur-sm border border-gray-100 hover:shadow-[0_8px_30px_rgba(20,184,166,0.12)] hover:border-primary/20 hover:-translate-y-1 gradient-border"
               >
                 <div className="flex justify-center mb-5 text-primary transition-transform duration-300 group-hover:scale-110">
                   {stat.icon}

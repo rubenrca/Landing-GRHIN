@@ -3,7 +3,7 @@ import ScrollReveal from "./ui/ScrollReveal";
 const testimonials = [
   {
     quote:
-      "GRHIN nos permite ahorrar tiempo y esfuerzo en la distribucion de documentos laborales como las liquidaciones de sueldo. Antes perdiamos horas entregando y enviando documentos.",
+      "GRHIN nos permite ahorrar tiempo y esfuerzo en la distribucion de documentos laborales como las liquidaciones de sueldo. Antes perdiamos horas entregando y enviando documentos. Funciona perfecto",
     name: "Rubén Collao",
     role: "Sostenedor",
     company: "Colegio Nuevo Milenio",
@@ -36,7 +36,7 @@ export default function Testimonials() {
             {testimonials.map((testimonial) => (
               <div
                 key={testimonial.name}
-                className="relative rounded-2xl p-8 transition-all duration-300 bg-white/70 backdrop-blur-sm border border-white/60 hover:shadow-[0_8px_30px_rgba(76,184,79,0.08)] gradient-border"
+                className="relative rounded-2xl p-8 transition-all duration-300 bg-white/70 backdrop-blur-sm border border-white/60 hover:shadow-[0_8px_30px_rgba(20,184,166,0.08)] gradient-border"
               >
                 {/* Comilla decorativa */}
                 <span className="absolute -top-4 -left-1 text-7xl leading-none text-primary/10 font-serif select-none">

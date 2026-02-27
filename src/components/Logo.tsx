@@ -29,7 +29,7 @@ export default function Logo({ className = "h-8", inverted = false }: { classNam
           opacity="0.6"
         />
       </svg>
-      <span className={`text-xl font-semibold tracking-wide ${inverted ? "text-white" : "text-primary"}`}>
+      <span className={`text-xl font-semibold tracking-wide ${inverted ? "text-white" : "text-[#3A9A3D]"}`}>
         GRHIN
       </span>
     </div>

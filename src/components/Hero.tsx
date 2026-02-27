@@ -23,7 +23,7 @@ export default function Hero() {
 
           <h1 className="hero-animate-2 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-text leading-[1.1]">
             Gestion de{" "}
-            <span className="text-primary">
+            <span className="text-primary-darker">
               recursos humanos
             </span>{" "}
             en la nube
@@ -40,7 +40,7 @@ export default function Hero() {
               href="https://admin.grhin.cl"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-lg px-6 py-3 text-sm font-semibold text-white bg-primary-dark hover:bg-primary-darker transition-all duration-300 hover:shadow-[0_0_30px_rgba(76,184,79,0.3)] inline-flex items-center gap-2 shadow-lg btn-glow"
+              className="rounded-lg px-6 py-3 text-sm font-semibold text-white bg-primary-dark hover:bg-primary-darker transition-all duration-300 hover:shadow-[0_0_30px_rgba(20,184,166,0.3)] inline-flex items-center gap-2 shadow-lg btn-glow"
             >
               Probar GRHIN ahora
               <svg
