@@ -15,9 +15,9 @@ const steps = [
   },
   {
     number: "03",
-    title: "Gestiona solicitudes",
+    title: "Gestiona tus documentos",
     description:
-      "Recibe y aprueba vacaciones, permisos y anticipos desde un solo panel.",
+      "Gestiona tus documentos de forma masiva o individual.",
   },
   {
     number: "04",

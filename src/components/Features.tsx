@@ -1,20 +1,43 @@
+"use client";
+
+import { useState } from "react";
 import HeroAnimation from "./HeroAnimation";
+import BulkUploadAnimation from "./BulkUploadAnimation";
 import ScrollReveal from "./ui/ScrollReveal";
 
-const benefits = [
-  "Documentos centralizados",
-  "Solicitudes al instante",
-  "Gestion multi-empresa",
-  "Reportes en tiempo real",
+const features = [
+  {
+    label: "Panel de administracion",
+    description: "Vista general del sistema con accesos directos a todas las funcionalidades.",
+  },
+  {
+    label: "Carga masiva de documentos",
+    description: "Sube liquidaciones y documentos en PDF de forma masiva para todos tus trabajadores.",
+  },
+  {
+    label: "Distribucion de documentos",
+    description: "Asigna y distribuye documentos a trabajadores de forma individual o grupal.",
+  },
+  {
+    label: "Gestion de solicitudes",
+    description: "Aprueba o rechaza solicitudes de vacaciones, permisos y anticipos.",
+  },
 ];
 
+const mockups: Record<number, React.ReactNode> = {
+  0: <HeroAnimation />,
+  1: <BulkUploadAnimation />,
+};
+
 export default function Features() {
+  const [active, setActive] = useState(0);
+
   return (
     <section id="funcionalidades" className="py-20 lg:py-28 bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            {/* Columna izquierda */}
+            {/* Left column */}
             <div>
               <p className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary mb-4">
                 <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
@@ -33,25 +56,67 @@ export default function Features() {
               </p>
 
               <div className="mt-10 space-y-0">
-                {benefits.map((benefit, index) => (
-                  <div
-                    key={benefit}
-                    className="flex items-center gap-6 py-4 border-b border-gray-200 last:border-b-0"
+                {features.map((feature, index) => (
+                  <button
+                    key={feature.label}
+                    onClick={() => setActive(index)}
+                    className={`w-full flex items-start gap-6 py-4 border-b border-gray-200 last:border-b-0 text-left transition-colors duration-200 cursor-pointer ${
+                      active === index ? "" : "group"
+                    }`}
                   >
-                    <span className="text-sm font-semibold text-text-secondary tabular-nums">
+                    <span
+                      className={`text-sm font-semibold tabular-nums mt-0.5 transition-colors duration-200 ${
+                        active === index ? "text-primary" : "text-text-secondary group-hover:text-text"
+                      }`}
+                    >
                       {String(index + 1).padStart(2, "0")}
                     </span>
-                    <span className="text-base font-semibold text-text">
-                      {benefit}
-                    </span>
-                  </div>
+                    <div className="flex-1 min-w-0">
+                      <span
+                        className={`text-base font-semibold transition-colors duration-200 ${
+                          active === index ? "text-primary" : "text-text group-hover:text-text"
+                        }`}
+                      >
+                        {feature.label}
+                      </span>
+                      <div
+                        className={`overflow-hidden transition-all duration-300 ${
+                          active === index ? "max-h-20 opacity-100 mt-1.5" : "max-h-0 opacity-0"
+                        }`}
+                      >
+                        <p className="text-sm text-text-secondary leading-relaxed">
+                          {feature.description}
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className={`mt-1 h-2 w-2 rounded-full shrink-0 transition-colors duration-200 ${
+                        active === index ? "bg-primary" : "bg-gray-300"
+                      }`}
+                    />
+                  </button>
                 ))}
               </div>
             </div>
 
-            {/* Columna derecha: mockup */}
-            <div>
-              <HeroAnimation />
+            {/* Right column: mockup */}
+            <div className="relative">
+              {features.map((_, index) => (
+                <div
+                  key={index}
+                  className={`transition-all duration-500 ${
+                    active === index
+                      ? "opacity-100 translate-y-0"
+                      : "opacity-0 translate-y-4 absolute inset-0 pointer-events-none"
+                  }`}
+                >
+                  {mockups[index] ?? (
+                    <div className="w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-2xl border border-gray-200 bg-gray-50 aspect-[1440/960] flex items-center justify-center">
+                      <p className="text-text-secondary text-lg">Proximamente</p>
+                    </div>
+                  )}
+                </div>
+              ))}
             </div>
           </div>
         </ScrollReveal>

@@ -179,7 +179,7 @@ export default function HeroAnimation() {
               </g>
             </g>
           </g>
-          <text x="35" y="910" fontSize="13" fill="#8E9E8F">Software Admin v2.0</text>
+          <text x="35" y="910" fontSize="13" fill="#8E9E8F">GRHIN v2.0</text>
         </g>
 
         {/* MAIN CONTENT AREA */}
