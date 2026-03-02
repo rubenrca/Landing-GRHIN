@@ -9,21 +9,21 @@ const steps = [
   },
   {
     number: "02",
-    title: "Carga tus datos",
-    description:
-      "Carga tus trabajadores y documentos de forma masiva o individual.",
+    title: "Entrega de credenciales",
+    description: 
+      "Entrega credenciales de acceso a tu equipo.",
   },
   {
     number: "03",
     title: "Gestiona tus documentos",
     description:
-      "Gestiona tus documentos de forma masiva o individual.",
+      "Entrega de documentos de forma masiva o individual.",
   },
   {
     number: "04",
-    title: "Comunica y reporta",
+    title: "Comunica y responde",
     description:
-      "Publica comunicaciones internas y genera reportes automaticos para tu equipo.",
+      "Publica comunicaciones internas y responde solicitudes para tu equipo.",
   },
 ];
 

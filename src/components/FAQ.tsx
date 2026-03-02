@@ -5,17 +5,17 @@ import ScrollReveal from "./ui/ScrollReveal";
 
 const faqs = [
   {
-    question: "Que tipo de organizaciones pueden usar GRHIN?",
+    question: "¿A qué tipo de organizaciones se puede usar GRHIN?",
     answer:
       "GRHIN está diseñado para cualquier organización chilena que necesite gestionar trabajadores: colegios, fundaciones, empresas privadas y más. El sistema se adapta a organizaciones de cualquier tamaño.",
   },
   {
-    question: "Puedo gestionar varias empresas desde una sola cuenta?",
+    question: "¿Puedo gestionar múltiples empresas desde una sola cuenta?",
     answer:
-      "Si. GRHIN soporta gestión multi-empresa. Puedes administrar múltiples organizaciones con roles diferenciados (Admin, Trabajador) desde un único panel de control.",
+      "Sí. GRHIN soporta gestión multi-empresa. Puedes administrar múltiples organizaciones con roles diferenciados (Admin, Trabajador) desde un único panel de control.",
   },
   {
-    question: "Que documentos puedo subir a la plataforma?",
+    question: "¿Qué documentos puedo subir a la plataforma?",
     answer:
       "Puedes subir contratos, anexos, certificados, reglamentos internos y cualquier documento laboral en formato PDF. Soportamos carga masiva e individual.",
   },
@@ -27,7 +27,7 @@ const faqs = [
   {
     question: "¿Mis datos están seguros?",
     answer:
-      "Absolutamente. Utilizamos encriptacion de datos, servidores seguros y cumplimos con las normativas de proteccion de datos vigentes en Chile.",
+      "Sí. Utilizamos encriptación de datos, servidores seguros y cumplimos con las normativas de protección de datos vigentes en Chile.",
   },
 ];
 
